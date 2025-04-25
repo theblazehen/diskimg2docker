@@ -1,7 +1,5 @@
 # Disk Image to Docker Converter
 
-[![Docker Build Status](https://img.shields.io/docker/build/your_dockerhub_username/your_image_name.svg)](https://hub.docker.com/r/your_dockerhub_username/your_image_name/) <!-- Optional: Add if you publish to Docker Hub -->
-
 ## What is this?
 
 Ever wanted to run the software from a Raspberry Pi (or other device) disk image inside a Docker container? This tool makes it easy!
