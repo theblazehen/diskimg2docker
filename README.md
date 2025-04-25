@@ -23,7 +23,7 @@ It takes a raw disk image file (like the `.img` file you flash onto an SD card) 
     docker build --build-arg IMG_PATH=./my-pi-image.img -t my-extracted-image .
     ```
 
-    *   **Replace `./my-pi-image.img`** with the path to *your* disk image file.
+    *   **Replace `./my-pi-image.img`** with the path (or URL) to *your* disk image file.
     *   *(Optional)* If the main Linux filesystem isn't the second partition (which is common for Raspberry Pi), add `--build-arg PARTITION_NUM=<number>` (e.g., `--build-arg PARTITION_NUM=1`).
     *   **Replace `my-extracted-image`** with the name you want to give your new Docker image.
 
