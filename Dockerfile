@@ -18,8 +18,8 @@ ARG IMG_PATH=./image.img
 # and partitions as /dev/sda1, /dev/sda2, etc.
 ARG PARTITION_NUM=2
 
-# Copy the disk image into the build stage
-COPY ${IMG_PATH} /image.img
+# Add the disk image (local path or URL) into the build stage
+ADD ${IMG_PATH} /image.img
 
 # Create the directory to hold the extracted root filesystem
 RUN mkdir /extracted_rootfs
