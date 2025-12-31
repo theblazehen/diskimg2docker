@@ -38,3 +38,9 @@ It takes a raw disk image file (like the `.img` file you flash onto an SD card) 
 *   **Not a Full VM:** This creates a container, not a virtual machine. The original operating system's kernel is *not* used; it runs on your host's Linux kernel.
 *   **Hardware:** Software inside the container that relies on specific hardware (like Raspberry Pi GPIO pins) will likely not work.
 *   **`systemctl` Replacement:** This tool includes a script that mimics `systemctl` to try and start services. It works for many common services but might not handle very complex systemd units perfectly.
+
+## License
+
+This project is licensed under the GNU Affero General Public License v3.0 (AGPL-3.0).
+
+See the [LICENSE](LICENSE) file for details.
